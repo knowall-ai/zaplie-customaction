@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(func start)",
+      "Bash(curl:*)",
+      "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 func start:*)",
+      "Bash(taskkill:*)",
+      "Bash(gh issue view:*)"
+    ]
+  }
+}
