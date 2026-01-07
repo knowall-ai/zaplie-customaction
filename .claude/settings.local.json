@@ -7,7 +7,17 @@
       "Bash(curl:*)",
       "Bash(NODE_TLS_REJECT_UNAUTHORIZED=0 func start:*)",
       "Bash(taskkill:*)",
-      "Bash(gh issue view:*)"
+      "Bash(gh issue view:*)",
+      "Bash(gh pr edit:*)",
+      "Bash(az group list:*)",
+      "Bash(az logout:*)",
+      "Bash(az login:*)",
+      "Bash(az account show:*)",
+      "Bash(az storage account:*)",
+      "Bash(az functionapp list:*)",
+      "Bash(az functionapp create:*)",
+      "Bash(npm run install:all:*)",
+      "Bash(func azure functionapp publish:*)"
     ]
   }
 }
