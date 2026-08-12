@@ -1,0 +1,38 @@
+{
+  "name": "zaplie-customaction",
+  "version": "1.0.0",
+  "description": "Custom Action API for sending sats (satoshis) as rewards - integrates with LNbits and Nostr wallets",
+  "engines": {
+    "node": "18 || 20"
+  },
+  "author": "KnowAll AI",
+  "license": "MIT",
+  "scripts": {
+    "build": "cd functions && npm run build",
+    "start": "cd functions && npm start",
+    "test": "cd functions && npm test",
+    "install:all": "npm install && cd functions && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knowall-ai/zaplie-customaction"
+  },
+  "keywords": [
+    "lightning-network",
+    "bitcoin",
+    "sats",
+    "satoshis",
+    "rewards",
+    "lnbits",
+    "nostr",
+    "nostr-wallet-connect",
+    "nwc",
+    "api",
+    "azure-functions",
+    "power-automate",
+    "automation"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

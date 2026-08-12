@@ -1,0 +1,40 @@
+# Environment files (contain secrets)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+lib/
+build/
+*.js.map
+
+# Azure Functions
+functions/dist/
+functions/node_modules/
+local.settings.json
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# Misc
+.deployment
+.fake
